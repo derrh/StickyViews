@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyLayout.h
 //  StickyViews
 //
 //  Created by derrick on 6/4/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
+@interface MyLayout : UICollectionViewFlowLayout
 
 @end

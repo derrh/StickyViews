@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyHeaderOrFooterView.h
 //  StickyViews
 //
 //  Created by derrick on 6/4/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
+@interface MyHeaderOrFooterView : UICollectionReusableView
 
 @end

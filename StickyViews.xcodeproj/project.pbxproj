@@ -17,8 +17,9 @@
 		49089AA2175E320A00240B76 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49089AA1175E320A00240B76 /* Default@2x.png */; };
 		49089AA4175E320A00240B76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49089AA3175E320A00240B76 /* Default-568h@2x.png */; };
 		49089AA7175E320A00240B76 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49089AA5175E320A00240B76 /* MainStoryboard_iPhone.storyboard */; };
-		49089AAA175E320A00240B76 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49089AA8175E320A00240B76 /* MainStoryboard_iPad.storyboard */; };
 		49089AAD175E320A00240B76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49089AAC175E320A00240B76 /* ViewController.m */; };
+		49089AB6175E33EC00240B76 /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 49089AB5175E33EC00240B76 /* MyLayout.m */; };
+		49089AB9175E38D800240B76 /* MyHeaderOrFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49089AB8175E38D800240B76 /* MyHeaderOrFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +37,12 @@
 		49089AA1175E320A00240B76 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		49089AA3175E320A00240B76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		49089AA6175E320A00240B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		49089AA9175E320A00240B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		49089AAB175E320A00240B76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49089AAC175E320A00240B76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49089AB4175E33EC00240B76 /* MyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
+		49089AB5175E33EC00240B76 /* MyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
+		49089AB7175E38D800240B76 /* MyHeaderOrFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeaderOrFooterView.h; sourceTree = "<group>"; };
+		49089AB8175E38D800240B76 /* MyHeaderOrFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeaderOrFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +92,13 @@
 				49089A9C175E320A00240B76 /* AppDelegate.h */,
 				49089A9D175E320A00240B76 /* AppDelegate.m */,
 				49089AA5175E320A00240B76 /* MainStoryboard_iPhone.storyboard */,
-				49089AA8175E320A00240B76 /* MainStoryboard_iPad.storyboard */,
 				49089AAB175E320A00240B76 /* ViewController.h */,
 				49089AAC175E320A00240B76 /* ViewController.m */,
 				49089A94175E320A00240B76 /* Supporting Files */,
+				49089AB4175E33EC00240B76 /* MyLayout.h */,
+				49089AB5175E33EC00240B76 /* MyLayout.m */,
+				49089AB7175E38D800240B76 /* MyHeaderOrFooterView.h */,
+				49089AB8175E38D800240B76 /* MyHeaderOrFooterView.m */,
 			);
 			path = StickyViews;
 			sourceTree = "<group>";
@@ -166,7 +173,6 @@
 				49089AA2175E320A00240B76 /* Default@2x.png in Resources */,
 				49089AA4175E320A00240B76 /* Default-568h@2x.png in Resources */,
 				49089AA7175E320A00240B76 /* MainStoryboard_iPhone.storyboard in Resources */,
-				49089AAA175E320A00240B76 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +186,8 @@
 				49089A9A175E320A00240B76 /* main.m in Sources */,
 				49089A9E175E320A00240B76 /* AppDelegate.m in Sources */,
 				49089AAD175E320A00240B76 /* ViewController.m in Sources */,
+				49089AB6175E33EC00240B76 /* MyLayout.m in Sources */,
+				49089AB9175E38D800240B76 /* MyHeaderOrFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +208,6 @@
 				49089AA6175E320A00240B76 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		49089AA8175E320A00240B76 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49089AA9175E320A00240B76 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +278,7 @@
 				GCC_PREFIX_HEADER = "StickyViews/StickyViews-Prefix.pch";
 				INFOPLIST_FILE = "StickyViews/StickyViews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -289,6 +290,7 @@
 				GCC_PREFIX_HEADER = "StickyViews/StickyViews-Prefix.pch";
 				INFOPLIST_FILE = "StickyViews/StickyViews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
