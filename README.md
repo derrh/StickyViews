@@ -1,4 +1,4 @@
-** Making Supplementary Views Float **
+##Making Supplementary Views Float
 
 This example will be using a subclass of `UICollectionViewFlowLayout`. You can achieve a similar effect with a purely custom `UICollectionViewLayout` subclass, but for simplicity we will be using flow layout.
 
